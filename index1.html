@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ICCAUA 2027 Cairo</title>
+<meta name="description" content="ICCAUA 2027, Cairo venue: 5–7 May 2027 at the German University in Cairo. Key dates, how to apply, tracks, posters and venue.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a drafting-sheet page. Light grid-paper bands alternate with ink bands; condensed caps for headings, mono for dates and labels. */
+:root{
+  --bg:#F3F4F1; --fg:#101418; --muted:#4A5058; --surface:#FFFFFF; --slot:#E6E8E3;
+  --line:rgba(16,20,24,.14); --line-strong:#101418; --grid:rgba(16,20,24,.06);
+  --band:#101418; --band-fg:#F3F4F1; --band-muted:#A7ADB5; --band-line:rgba(243,244,241,.22);
+  --sand:#E8C77B; --on-sand:#101418;
+  --accent:#1E3FCC; --on-accent:#FFFFFF;
+  --f-display:'Archivo','Arial Narrow',Arial,sans-serif;
+  --f-body:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1115; --fg:#E9EBE7; --muted:#A3A9B1; --surface:#161A20; --slot:#1C2128;
+    --line:rgba(233,235,231,.14); --line-strong:#E9EBE7; --grid:rgba(233,235,231,.05);
+    --band:#181D24; --band-fg:#E9EBE7; --band-muted:#A3A9B1; --band-line:rgba(233,235,231,.18);
+    --sand:#E8C77B; --on-sand:#101418;
+    --accent:#8A9DFF; --on-accent:#0E1115;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1115; --fg:#E9EBE7; --muted:#A3A9B1; --surface:#161A20; --slot:#1C2128;
+  --line:rgba(233,235,231,.14); --line-strong:#E9EBE7; --grid:rgba(233,235,231,.05);
+  --band:#181D24; --band-fg:#E9EBE7; --band-muted:#A3A9B1; --band-line:rgba(233,235,231,.18);
+  --sand:#E8C77B; --on-sand:#101418;
+  --accent:#8A9DFF; --on-accent:#0E1115;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0}
+img{max-width:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+h1,h2,h3{text-wrap:balance}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px));padding-block:72px}
+.band{border-bottom:1px solid var(--line)}
+.ink{background:var(--band);color:var(--band-fg);border-bottom:0}
+.gridbg{background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:48px 48px}
+.mono{font-family:var(--f-mono)}
+.label{font-family:var(--f-mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.h2{margin:0;font-family:var(--f-display);font-stretch:75%;font-weight:800;font-size:clamp(40px,5vw,64px);line-height:1;text-transform:uppercase;letter-spacing:-.005em}
+.sechead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 24px}
+.stack{display:flex;flex-direction:column}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;font-weight:600;text-decoration:none;border-radius:2px;border:1.5px solid transparent;transition:opacity .15s}
+.btn:hover{opacity:.88}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-ghost{border-color:var(--line-strong);color:var(--fg)}
+.btn-lg{min-height:52px;font-size:17px;padding:0 24px}
+.arrow{width:18px;height:18px;flex:none}
+
+/* header */
+.nav{max-width:1200px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px));padding-block:14px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.brand b{font-family:var(--f-display);font-stretch:75%;font-weight:800;font-size:26px}
+.navlinks{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;font-size:15px}
+.navlinks a:not(.btn){text-decoration:none}
+.navlinks a:not(.btn):hover{text-decoration:underline;text-underline-offset:4px}
+
+/* hero */
+.hero{display:flex;flex-wrap:wrap;gap:48px;align-items:stretch}
+.hero-copy{flex:999 1 520px;min-width:0;gap:28px}
+.hero h1{margin:0;font-family:var(--f-display);font-stretch:68%;font-weight:800;font-size:clamp(68px,11vw,156px);line-height:.86;letter-spacing:-.02em;text-transform:uppercase}
+.hero h1 span{color:var(--accent)}
+.lede{margin:0;font-size:20px;max-width:34em}
+.count{margin:0;font-family:var(--f-mono);font-size:14px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.count b{background:var(--band);color:var(--sand);padding:4px 8px;font-weight:500;font-variant-numeric:tabular-nums}
+.venues{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line-strong);max-width:560px}
+.venues div{padding:12px 14px;border-right:1px solid var(--line-strong);min-width:0}
+.venues div:last-child{border-right:0}
+.venues small{display:block;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.04em;color:var(--muted)}
+.venues strong{font-weight:600}
+.venues .here{background:var(--band);color:var(--band-fg)}
+.venues .here small{color:var(--sand)}
+.hero-poster{flex:1 1 300px;min-width:0;gap:10px}
+.slot{border:1.5px dashed var(--muted);background:var(--slot);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:20px;font-family:var(--f-mono);font-size:13px;color:var(--muted);max-width:100%}
+.slot img{width:100%;height:100%;object-fit:cover;display:block}
+.poster{aspect-ratio:3/4}
+.small{margin:0;font-size:13px;color:var(--muted)}
+
+/* dates */
+.dates{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));border-top:1px solid var(--band-line)}
+.date{padding:24px 24px 28px 0;border-bottom:1px solid var(--band-line);gap:8px}
+.tag{align-self:flex-start;font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;padding:3px 8px;color:var(--band-muted);border:1px solid var(--band-line)}
+.tag.next{background:var(--sand);color:var(--on-sand);border-color:var(--sand)}
+.tag.closed{text-decoration:line-through}
+.date .day{font-family:var(--f-display);font-stretch:68%;font-weight:800;font-size:76px;line-height:.9;color:var(--sand);font-variant-numeric:tabular-nums}
+.date .mon{font-family:var(--f-mono);font-size:14px;letter-spacing:.08em}
+.date h3{margin:4px 0 0;font-size:18px;font-weight:600}
+.date p{margin:0;color:var(--band-muted);font-size:15px}
+.ink a{color:var(--sand)}
+
+/* apply */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.step{background:var(--surface);border:1px solid var(--line);padding:28px;gap:12px}
+.step .no{font-family:var(--f-mono);font-size:14px;color:var(--accent)}
+.step h3{margin:0;font-size:22px}
+.step p{margin:0;color:var(--muted)}
+.step .acts{margin-top:auto;padding-top:6px;display:flex;flex-wrap:wrap;gap:6px 18px;font-weight:600}
+.step .acts a{text-underline-offset:4px}
+.email{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-family:var(--f-mono);font-size:14px;background:var(--slot);padding:8px 10px;user-select:all;word-break:break-all}
+.copy{font:inherit;font-family:var(--f-body);font-size:13px;font-weight:600;min-height:32px;padding:0 10px;border:1px solid var(--line-strong);background:transparent;color:var(--fg);border-radius:2px;cursor:pointer;user-select:none}
+.tablebox{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{width:100%;min-width:520px;border-collapse:collapse;font-size:15px}
+caption{text-align:left;padding:16px 20px 4px;font-weight:600}
+th{font-family:var(--f-mono);font-weight:500;font-size:13px;color:var(--muted);text-align:left;padding:12px 20px;border-bottom:1px solid var(--line)}
+td{padding:12px 20px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+td.em{font-weight:600}
+
+/* tracks */
+.tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));border-top:1px solid var(--line-strong);border-left:1px solid var(--line-strong);margin:0;padding:0;list-style:none}
+.tracks li{padding:20px 22px;border-right:1px solid var(--line-strong);border-bottom:1px solid var(--line-strong);display:flex;gap:16px;align-items:baseline}
+.tracks b{font-family:var(--f-display);font-stretch:68%;font-weight:800;font-size:38px;line-height:1;color:var(--accent);min-width:22px}
+.tracks span{font-weight:500;font-size:17px}
+
+/* posters */
+.posters{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.posters figure{margin:0;display:flex;flex-direction:column;gap:10px}
+.posters figcaption{font-weight:600}
+
+/* venue */
+.venue{display:flex;flex-wrap:wrap;gap:48px}
+.venue-copy{flex:1 1 380px;min-width:0;gap:20px}
+.venue-copy ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.addr{font-weight:600;font-size:20px}
+.mapslot{flex:1 1 420px;min-width:0;min-height:360px}
+
+/* links */
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.lcard{display:flex;justify-content:space-between;gap:16px;padding:20px 22px;background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--fg);transition:border-color .15s}
+.lcard:hover{border-color:var(--line-strong)}
+.lcard strong{display:block;font-size:17px}
+.lcard span{font-size:14px;color:var(--muted)}
+.lcard svg{width:20px;height:20px;flex:none;margin-top:3px}
+
+/* footer */
+.foot{display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between}
+.foot .col{flex:1 1 220px;gap:8px;font-size:15px}
+.foot .col:first-child{flex:2 1 320px}
+.foot .lbl{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--sand)}
+.foot p,.foot .m{margin:0;color:var(--band-muted)}
+.foot a{color:var(--band-fg)}
+.foot .name{font-family:var(--f-display);font-stretch:75%;font-weight:800;font-size:32px}
+
+@media (max-width:560px){
+  .wrap{padding-block:56px}
+  .venues small{font-size:10.5px}
+  .date{padding-right:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="band">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#top"><b>ICCAUA 2027</b><span class="label">Cairo</span></a>
+    <div class="navlinks">
+      <a href="#dates">Dates</a>
+      <a href="#apply">How to apply</a>
+      <a href="#tracks">Tracks</a>
+      <a href="#posters">Posters</a>
+      <a href="#venue">Venue</a>
+      <a href="#links">Links</a>
+      <a class="btn btn-primary" href="#apply">Apply now</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="top" class="band gridbg">
+  <div class="wrap hero">
+    <div class="hero-copy stack">
+      <p class="label" style="margin:0">10th International Conference of Contemporary Affairs in Architecture and Urbanism</p>
+      <h1>ICCAUA<br>2027<br><span>Cairo</span></h1>
+      <p class="lede">5–7 May 2027 at the German University in Cairo, New Cairo. One conference, three venues: present in person here, or join online.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn-primary btn-lg" href="#apply">Submit your abstract
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"></path></svg></a>
+        <a class="btn btn-ghost btn-lg" href="https://iccaua.ticketbud.com/iccaua2027" target="_blank" rel="noopener">Register</a>
+      </div>
+      <p class="count" id="count"><b id="days">—</b><span id="countText">Abstract deadline: 5 December 2026</span></p>
+      <div class="venues" role="list" aria-label="Conference venues">
+        <div role="listitem"><small>VENUE 1</small><strong>Istanbul</strong></div>
+        <div role="listitem" class="here"><small>VENUE 2 · HERE</small><strong>Cairo</strong></div>
+        <div role="listitem"><small>VENUE 3</small><strong>Covilhã</strong></div>
+      </div>
+    </div>
+    <div class="hero-poster stack">
+      <!-- Replace this slot with: <img src="poster-main.jpg" alt="ICCAUA 2027 Cairo poster"> -->
+      <div class="slot poster" style="flex:1;min-height:420px">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1"></rect><circle cx="9" cy="9" r="2"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+        <span>[MAIN CONFERENCE POSTER]<br>portrait, 3:4</span>
+      </div>
+      <p class="small">Organised by Alanya University with Istanbul Aydın University, the German University in Cairo and CIAUD, University of Beira Interior.</p>
+    </div>
+  </div>
+</section>
+
+<section id="dates" class="ink">
+  <div class="wrap stack" style="gap:40px">
+    <div class="sechead">
+      <h2 class="h2">Key dates</h2>
+      <a class="mono" style="font-size:14px" href="https://www.iccaua.com/page/important-dates" target="_blank" rel="noopener">Full schedule on iccaua.com ↗</a>
+    </div>
+    <div class="dates" id="dateList">
+      <article class="date stack" data-end="2026-12-05">
+        <span class="tag">UPCOMING</span>
+        <div class="day">05</div><div class="mon">DEC 2026</div>
+        <h3>Abstract deadline</h3><p>Send your .docx abstract in the official template.</p>
+      </article>
+      <article class="date stack" data-end="2027-02-05">
+        <span class="tag">UPCOMING</span>
+        <div class="day">05</div><div class="mon">FEB 2027</div>
+        <h3>Early-bird registration closes</h3><p>Fees double after this date.</p>
+      </article>
+      <article class="date stack" data-end="2027-04-05">
+        <span class="tag">UPCOMING</span>
+        <div class="day">05</div><div class="mon">APR 2027</div>
+        <h3>Full paper deadline</h3><p>Use the full-text template and quote your manuscript number.</p>
+      </article>
+      <article class="date stack" data-end="2027-05-07">
+        <span class="tag">UPCOMING</span>
+        <div class="day">05–07</div><div class="mon">MAY 2027</div>
+        <h3>Conference days</h3><p>In person at GUC, New Cairo, and online.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="apply" class="band">
+  <div class="wrap stack" style="gap:40px">
+    <h2 class="h2">How to apply</h2>
+    <div class="steps">
+      <div class="step stack">
+        <div class="no">STEP 1 OF 3</div>
+        <h3>Send your abstract</h3>
+        <p>Write it in the official .docx template and email it before 5 December 2026. Put “Cairo” in the subject line.</p>
+        <div class="email"><span id="addr">iccaua@alanyauniversity.edu.tr</span><button class="copy" type="button" id="copyBtn">Copy</button></div>
+        <div class="acts">
+          <a href="https://www.iccaua.com/page/paper-guidelines" target="_blank" rel="noopener">Abstract template</a>
+          <a href="mailto:iccaua@alanyauniversity.edu.tr?subject=ICCAUA2027%20Abstract%20%E2%80%93%20Cairo">Open in email app</a>
+        </div>
+      </div>
+      <div class="step stack">
+        <div class="no">STEP 2 OF 3</div>
+        <h3>Get accepted</h3>
+        <p>You receive a manuscript number and a preliminary acceptance letter. Quote the number in every email after that.</p>
+        <div class="acts">
+          <a href="https://www.iccaua.com/page/publication-policies" target="_blank" rel="noopener">Review and publication policy</a>
+        </div>
+      </div>
+      <div class="step stack">
+        <div class="no">STEP 3 OF 3</div>
+        <h3>Register and send the full paper</h3>
+        <p>Pay online, then submit the full paper in the full-text template by 5 April 2027.</p>
+        <div class="acts">
+          <a href="https://iccaua.ticketbud.com/iccaua2027" target="_blank" rel="noopener">Register and pay</a>
+          <a href="https://www.iccaua.com/page/fee-waiver-policy" target="_blank" rel="noopener">Fee waiver</a>
+        </div>
+      </div>
+    </div>
+    <div class="tablebox">
+      <table>
+        <caption>Registration fees (EUR)</caption>
+        <thead><tr><th scope="col">Category</th><th scope="col">Early bird, until 5 Feb 2027</th><th scope="col">After 5 Feb 2027</th></tr></thead>
+        <tbody>
+          <tr><td>In-person presentation</td><td class="em">€155</td><td>€310</td></tr>
+          <tr><td>Online presentation</td><td class="em">€135</td><td>€270</td></tr>
+          <tr><td>Additional in-person co-author</td><td class="em">€50</td><td>€100</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="tracks" class="band">
+  <div class="wrap stack" style="gap:40px">
+    <div class="sechead">
+      <h2 class="h2">Nine tracks</h2>
+      <a class="mono" style="font-size:14px" href="https://www.iccaua.com/page/objectives-scopes" target="_blank" rel="noopener">Full topic list ↗</a>
+    </div>
+    <ul class="tracks">
+      <li><b>A</b><span>Architecture and Technology</span></li>
+      <li><b>B</b><span>Sustainability and Urban Design</span></li>
+      <li><b>C</b><span>Heritage and Cultural Landscapes</span></li>
+      <li><b>D</b><span>Habitat Studies</span></li>
+      <li><b>E</b><span>Urban Economics</span></li>
+      <li><b>F</b><span>Salutogenic Architecture</span></li>
+      <li><b>G</b><span>Civil Engineering</span></li>
+      <li><b>H</b><span>Business, Economics and Tourism</span></li>
+      <li><b>I</b><span>Human Experience and Design</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="posters" class="band gridbg">
+  <div class="wrap stack" style="gap:40px">
+    <div class="stack" style="gap:8px">
+      <h2 class="h2">Posters</h2>
+      <p style="margin:0;color:var(--muted)">Call for papers, keynotes and programme.</p>
+    </div>
+    <div class="posters">
+      <figure><div class="slot poster">[POSTER 1]</div><figcaption>Call for papers</figcaption></figure>
+      <figure><div class="slot poster">[POSTER 2]</div><figcaption>Keynote speakers</figcaption></figure>
+      <figure><div class="slot poster">[POSTER 3]</div><figcaption>Cairo venue and dates</figcaption></figure>
+      <figure><div class="slot poster">[POSTER 4]</div><figcaption>Conference programme</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="venue" class="band">
+  <div class="wrap venue">
+    <div class="venue-copy stack">
+      <h2 class="h2">Venue</h2>
+      <div>
+        <div class="addr">German University in Cairo, Main Campus</div>
+        <div style="color:var(--muted)">Main Entrance, Al Tagamoa Al Khames (Fifth Settlement), New Cairo City, Cairo, Egypt</div>
+      </div>
+      <ul>
+        <li>45–75 minutes by car from Cairo International Airport (CAI), via the Ring Road and the Katameya exit.</li>
+        <li>No metro to New Cairo. Use Uber or Careem, and book your ride back in advance.</li>
+        <li>Stay in New Cairo or the Fifth Settlement. Central Cairo is about 30 km away.</li>
+        <li>Visa: apply on the Egypt e-Visa portal, or check whether you can get one on arrival.</li>
+      </ul>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=German+University+in+Cairo" target="_blank" rel="noopener">Open in Google Maps</a>
+        <a class="btn btn-ghost" href="https://www.visa2egypt.gov.eg" target="_blank" rel="noopener">Egypt e-Visa</a>
+        <a class="btn btn-ghost" href="https://www.iccaua.com/page/accommodation-and-travel-information" target="_blank" rel="noopener">Travel and hotels</a>
+      </div>
+    </div>
+    <div class="slot mapslot">[CAMPUS PHOTO OR MAP]</div>
+  </div>
+</section>
+
+<section id="links" class="band">
+  <div class="wrap stack" style="gap:40px">
+    <h2 class="h2">Useful links</h2>
+    <div class="links" id="linkGrid"></div>
+  </div>
+</section>
+</main>
+
+<footer class="ink">
+  <div class="wrap foot">
+    <div class="col stack">
+      <div class="name">ICCAUA 2027 · CAIRO</div>
+      <p>Hosted in Cairo by the German University in Cairo. Organised by Alanya University with Istanbul Aydın University and CIAUD, University of Beira Interior.</p>
+    </div>
+    <div class="col stack">
+      <div class="lbl">CONTACT</div>
+      <span style="user-select:all">iccaua@alanyauniversity.edu.tr</span>
+      <span class="m">Cairo committee: [CAIRO CONTACT EMAIL]</span>
+      <span class="m">+90 506 189 99 66</span>
+    </div>
+    <div class="col stack">
+      <div class="lbl">FOLLOW</div>
+      <a href="https://www.instagram.com/iccauaconference" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/Iccaua-102609091707889" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.youtube.com/channel/UCuFXGXHXnSRKA4-g77GPuOQ" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var DAY = 86400000;
+  var now = new Date();
+  function endOf(iso){ return new Date(iso + 'T23:59:59'); }
+
+  // Countdown to the abstract deadline
+  var left = Math.ceil((endOf('2026-12-05') - now) / DAY);
+  var days = document.getElementById('days'), txt = document.getElementById('countText');
+  if (left > 0) {
+    days.textContent = left + (left === 1 ? ' DAY' : ' DAYS');
+    txt.textContent = 'left to submit an abstract (deadline 5 Dec 2026)';
+  } else {
+    days.textContent = 'CLOSED';
+    txt.textContent = 'Abstract submission has closed. Registration is still open.';
+  }
+
+  // Mark each date as closed / next / upcoming
+  var next = false;
+  document.querySelectorAll('#dateList .date').forEach(function(el){
+    var tag = el.querySelector('.tag');
+    if (endOf(el.dataset.end) < now) { tag.textContent = 'CLOSED'; tag.classList.add('closed'); }
+    else if (!next) { next = true; tag.textContent = 'NEXT DEADLINE'; tag.classList.add('next'); }
+  });
+
+  // Useful links
+  var links = [
+    ['Paper guidelines','Templates and formatting rules','https://www.iccaua.com/page/paper-guidelines'],
+    ['Paper submission','How and where to submit','https://www.iccaua.com/page/paper-submission'],
+    ['Keynote speakers','Who is speaking this year','https://www.iccaua.com/page/keynote-speakers'],
+    ['Publication policies','Peer review and open access','https://www.iccaua.com/page/publication-policies'],
+    ['JICCAUA journal','The conference journal','https://journal.iccaua.com'],
+    ['Fee waiver policy','Who can apply for a waiver','https://www.iccaua.com/page/fee-waiver-policy'],
+    ['Organizing committee','Who runs the conference','https://www.iccaua.com/page/organizing-committee'],
+    ['FAQs','Common questions answered','https://www.iccaua.com/page/faqs'],
+    ['Main ICCAUA website','All three venues','https://www.iccaua.com/page/home']
+  ];
+  var grid = document.getElementById('linkGrid');
+  links.forEach(function(l){
+    var a = document.createElement('a');
+    a.className = 'lcard'; a.href = l[2]; a.target = '_blank'; a.rel = 'noopener';
+    a.innerHTML = '<span><strong></strong><span></span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"></path></svg>';
+    a.querySelector('strong').textContent = l[0];
+    a.querySelector('strong').nextElementSibling.textContent = l[1];
+    grid.appendChild(a);
+  });
+
+  // Copy email
+  var btn = document.getElementById('copyBtn'), addr = document.getElementById('addr');
+  btn.addEventListener('click', function(){
+    var done = function(){ btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = 'Copy'; }, 1600); };
+    var fallback = function(){
+      var r = document.createRange(); r.selectNodeContents(addr);
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent = 'Selected – press Ctrl+C';
+    };
+    try {
+      navigator.clipboard.writeText(addr.textContent).then(done, fallback);
+    } catch (e) { fallback(); }
+  });
+})();
+</script>
+</body>
+</html>
